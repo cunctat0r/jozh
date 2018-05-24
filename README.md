@@ -16,25 +16,25 @@ gem 'jozh'
 
 And then execute:
 ```
-    $ bundle
+$ bundle
 ```
 Or install it yourself as:
 ```
-    $ gem install jozh
+$ gem install jozh
 ```
 ## Usage
 
 Show gem version:
 ```
-  $ jozh -v
+$ jozh -v
 ```
 Hello in Jozh language:
 ```
-  $ jozh hi
+$ jozh hi
 ```
 If date is 11th, 22th (or 33th!) day of month, Jozh congratulates you! Unless it say random phrase to you:
 ```
-  $ jozh congratulation <date>
+$ jozh congratulation <date>
 ```
 ## Contributing
 
