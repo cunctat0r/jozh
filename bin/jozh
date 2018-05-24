@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+require 'jozh/cli'
+
+Jozh::CLI.start
