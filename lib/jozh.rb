@@ -1,5 +1,2 @@
-require "jozh/version"
-
-module Jozh
-  # Your code goes here...
-end
+require 'jozh/version'
+require 'jozh/speak'
