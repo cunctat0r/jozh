@@ -18,3 +18,4 @@ Feature: Speak
   Scenario: Jozh is angry when date is incorrect
     When I run `jozh congratulation 09-04-1982`
     Then the output should contain "Таки пейшыте время правильно"
+

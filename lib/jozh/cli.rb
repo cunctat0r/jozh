@@ -5,6 +5,14 @@ require 'jozh'
 module Jozh
   # Command-line interface
   class CLI < Thor
+
+    desc 'version', 'Display version'
+    map %w[-v --version] => :version
+
+    def version
+      say "Jozh #{VERSION}"
+    end
+
     desc 'hi', 'Says Hi in Jozh language'
     def hi
       puts Jozh::Speak.hi
@@ -13,7 +21,6 @@ module Jozh
     desc 'congratulation',
          'Determines if there is Jozh Day and congratuletes if true'
     def congratulation(time_str)
-      puts "time_str = #{time_str}"
       begin
         the_date = Date.strptime(time_str, '%d:%m:%Y')
       rescue ArgumentError
