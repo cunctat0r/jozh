@@ -15,7 +15,7 @@ RSpec.describe Jozh do
       expect(Jozh::Speak.congratulation(fete_date)).to eq('С Дыднём Йожа!')
     end
 
-    it 'doesnt congratulates on other dates' do
+    it 'does not congratulate on other dates' do
       expect(Jozh::Speak.congratulation(ordinary_date)).not_to eq('С Дыднём Йожа!')
     end
   end
