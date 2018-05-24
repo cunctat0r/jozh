@@ -36,6 +36,9 @@ If date is 11th, 22th (or 33th!) day of month, Jozh congratulates you! Unless it
 ```
 $ jozh congratulation <date>
 ```
+
+You have to use date in format `DD:MM:YYYY`
+
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/cunctat0r/jozh.
