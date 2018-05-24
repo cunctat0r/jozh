@@ -5,6 +5,7 @@ require 'jozh'
 module Jozh
   # Command-line interface
   class CLI < Thor
+    check_unknown_options!
 
     desc 'version', 'Display version'
     map %w[-v --version] => :version
