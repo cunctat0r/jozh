@@ -10,20 +10,8 @@ After all, this gem is totally useless.
 
 ## Installation
 
-Add this line to your application's Gemfile:
+You can't install this gem using `gem install` from Rubygems. If you really want to install it, please use binary release, or create your own binary using `rake build`.
 
-```ruby
-gem 'jozh'
-```
-
-And then execute:
-```
-$ bundle
-```
-Or install it yourself as:
-```
-$ gem install jozh
-```
 ## Usage
 
 Show gem version:
